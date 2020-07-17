@@ -10,7 +10,8 @@
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-    align-items: center; 
+    align-items: center;
+    background-color: rgba(231, 225, 130, 0.253);
 }
 
 
@@ -84,4 +85,37 @@ a.nav-link:hover {
     padding: 18px 25px;
     display: inline-block;
     user-select: none;
+}
+
+.header {
+    
+    
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: gray;
+    
+   
+}
+
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    width: 40.66666%;
+
+}
+
+.header-img {
+    width: 57.6666%;
+    text-align: right;
+
+
 }
